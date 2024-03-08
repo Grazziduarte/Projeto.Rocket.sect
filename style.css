@@ -1,0 +1,142 @@
+.body-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #2F2E41;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+    
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1085px;
+    margin: 0 auto;
+    padding-top: 70px;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 64px;
+    padding: 0;
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+
+}
+
+ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+}
+
+main .image-container {
+    width: fit-content;
+    height: 100%;
+}
+
+.content {
+    width: 1085px;
+    height: 280px; 
+    max-height: 280px;
+    margin: 100px auto 0; 
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    
+    gap: 80px;
+}
+
+section {
+    display: flex; 
+    flex-direction: column;
+    gap: 60px;
+    height: 100%;
+}
+
+section .text-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #C2C2C2;
+    text-align: center;
+    font-family: "Open Sans";
+
+}
+
+h1 {
+color: #FFFFFF;
+right: 604px;
+bottom: 168px;
+font-family: "JetBrains Mono", monospace;
+font-size: 36px;
+line-height: 40px;
+font-weight: bold;
+margin: 0px;
+text-align: center;
+white-space: nowrap;
+}
+
+p span,
+h1 span {
+    color: #00BFA6; 
+} 
+
+
+footer {
+    color: #FFFFFF;
+    font-family: "JetBrains Mono", monospace;
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+
+footer p {
+    margin-top: 27px;
+}
+
+#line {
+    width: 568px;
+    height: 0px;
+    margin: 0px  auto;
+    align-items: center;
+    border: 1px solid #00BFA6;
+}
+
+.lock {
+    width: 51px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+#cadeado {
+   object-fit: contain;
+}
+
